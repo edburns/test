@@ -1,0 +1,9 @@
+image: iad.ocir.io/odx-stateservice/build/builder
+
+stages:
+  - test
+
+test:
+  script:
+    - echo 'Hello World'
+
